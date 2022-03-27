@@ -61,9 +61,10 @@ let achou = null
 
 function alterarStatusEmCartaz (identificador){
     let filme = buscarFilmes(identificador)
-    filmes.emCartaz ===true ? false:true ;
-    return filme
-}
+    return console.log(filme === true? false:true);
+    
+        
+    };
 
 
 
