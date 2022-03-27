@@ -66,32 +66,6 @@ function alterarStatusEmCartaz (identificador){
         
     };
 
-
-
-
-adicionarFilmes(
-    2,
-    "O Retorno Do Jeji - Star Wars",
-    2.11,
-    JSON.stringify(["marck Hammil", "Carrier Fisher", "Harrison Ford"]),
-    1983,
-    false
-)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 module.exports = {
     filmes,
     adicionarFilmes,
