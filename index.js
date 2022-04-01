@@ -1,5 +1,5 @@
 const catalogo = require('./catalogo');
-catalogo.adicionarFilmes(
+/* catalogo.adicionarFilmes(
     2,
     "O Retorno Do Jeji - Star Wars",
     2.11,
@@ -16,10 +16,10 @@ catalogo.adicionarFilmes(
     2017, 
     false
 );
+ */
+//catalogo.buscarFilmes(0);
 
-catalogo.buscarFilmes(0);
-
-catalogo.alterarStatusEmCartaz(0);
+catalogo.alterarStatusEmCartaz(1);
 
 
 

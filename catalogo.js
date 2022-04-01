@@ -51,19 +51,21 @@ function buscarFilmes(identificador){
 let achou = null
     for(let i = 0; i<filmes.length; i++ ){
         if(filmes[i].id === identificador){
-            achou = filmes[i];
-            break;
+          return  achou = filmes[i];
+    
         }
     }
     console.log(achou);
 }
 
 
-function alterarStatusEmCartaz (identificador){
-    let filme = buscarFilmes(identificador)
-    return console.log(filme === true? false:true);
-    
-        
+function alterarStatusEmCartaz (id){
+    let found = buscarFilmes(id)
+    let filme = {
+        ...found, 
+        emCartaz: !found.emCartaz
+    }
+        console.log(filme)
     };
 
 module.exports = {
